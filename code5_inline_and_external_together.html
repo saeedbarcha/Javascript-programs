@@ -1,0 +1,42 @@
+<!-- *********  inline and external javascript  in single html file ****** -->
+
+<!--    this is possible way of writing inline and external javascript  -->
+         <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>inline and external </title>
+        </head>
+        <body>
+            <h1>inline and external javascript in single html file</h1>
+            <!-- external js  -->
+            <script src="file1.js">
+            </script> 
+            <!-- inline javascript -->
+            <script>
+                document.write("hello barcha");
+                document.write("hello barcha");
+                document.write("hello barcha");
+            </script>
+        </body>
+        </html> 
+
+
+        
+   <!-- Not acceptible way -->
+         <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <title>inline and external </title>
+        </head>
+        <body>
+            <h1>this is not acceptable</h1>
+
+          <!-- exrenlan javascript -->
+            <script src="file1.js">
+                // inline javascript
+                 document.write("hello barcha")
+                 document.write("hello barcha")
+            </script>
+           
+        </body>
+        </html>
